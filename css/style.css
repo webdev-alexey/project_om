@@ -170,3 +170,22 @@ body {
 .header__icon {
   margin-bottom: 62px;
 }
+
+.about {
+  background-color: #f6f8fa;
+  padding: 150px 0 144px;
+}
+
+.about__title {
+  font-size: 48px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__text p {
+  max-width: 770px;
+  margin-bottom: 16px;
+}
