@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body id="body">
@@ -191,6 +192,98 @@
       </div>
     </section>
 
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio__top">
+          <h2 class="title">Portfolio</h2>
+          <div class="portfolio__filter-btn">
+            <button class="portfolio__btn" data-filter="all">ALL</button>
+            <button class="portfolio__btn" data-filter=".category-branding">
+              BRANDING
+            </button>
+            <button class="portfolio__btn" data-filter=".category-design">
+              DESIGN
+            </button>
+            <button class="portfolio__btn" data-filter=".category-photography">
+              PHOTOGRAPHY
+            </button>
+            <button class="portfolio__btn" data-filter=".category-illustration">
+              ILLUSTRATION
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio__content">
+        <div class="portfolio__item mix category-branding">
+          <img src="images/portfolio/1.jpg" alt="portfolio-images-1" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-branding">
+          <img src="images/portfolio/2.jpg" alt="portfolio-images-2" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-design">
+          <img src="images/portfolio/3.jpg" alt="portfolio-images-3" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-design">
+          <img src="images/portfolio/3.jpg" alt="portfolio-images-4" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-design">
+          <img src="images/portfolio/4.jpg" alt="portfolio-images-5" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-photography">
+          <img src="images/portfolio/5.jpg" alt="portfolio-images-6" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-photography">
+          <img src="images/portfolio/6.jpg" alt="portfolio-images-7" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-illustration">
+          <img src="images/portfolio/7.jpg" alt="portfolio-images-8" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+        <div class="portfolio__item mix category-illustration">
+          <img src="images/portfolio/8.jpg" alt="portfolio-images-9" />
+          <a class="portfolio__item-link" href="#">show project</a>
+        </div>
+      </div>
+
+      <a class="portfolio__add" href="#">VIEW MORE PROJECTS</a>
+
+      <blockquote class="blockquote">
+        «Неважно какую историю вы рассказываете, главное – сделайте своего
+        покупателя героем»
+        <span class="blockquote__author">Крис Броган</span>
+      </blockquote>
+
+      <div class="portfolio__video">
+        <a
+          class="portfolio__video-link"
+          href="https://youtu.be/YtZZ-hxz9TI"
+          data-fancybox
+        >
+          <img src="images/play.svg" alt="play" />
+        </a>
+      </div>
+
+      <div class="container">
+        <div class="portfolio__numbers">
+          <h5 class="portfolio__numbers-item">305<span>Web Designs</span></h5>
+          <h5 class="portfolio__numbers-item">220<span>Logo Designs</span></h5>
+          <h5 class="portfolio__numbers-item">52<span>Print Designs</span></h5>
+          <h5 class="portfolio__numbers-item">88<span>Mobile Apps</span></h5>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="libs/mixitup.min.js"></script>
+    <script src="libs/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
