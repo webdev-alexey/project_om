@@ -617,3 +617,13 @@ ul.pricing__item {
   text-transform: uppercase;
   color: #242121;
 }
+
+.clients {
+  padding: 70px 0 95px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
