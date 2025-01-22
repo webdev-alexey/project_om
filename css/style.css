@@ -627,3 +627,67 @@ ul.pricing__item {
   justify-content: space-between;
   align-items: center;
 }
+
+.connection {
+  padding: 145px 0 160px;
+  background-image: url("../images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right 65%;
+}
+
+.connection__title {
+  margin-bottom: 80px;
+}
+
+.form {
+  max-width: 570px;
+}
+
+.form input,
+.form textarea {
+  border: none;
+  border-bottom: 2px solid #373a39;
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.form button {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 13px;
+  font-size: 11px;
+  color: #fff;
+  padding: 17px 70px 15px;
+  border: transparent;
+  background: #242121;
+  cursor: pointer;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+
+.form button:hover {
+  color: #242121;
+  background: #fff;
+  border: 1px solid #242121;
+}
